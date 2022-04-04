@@ -13,9 +13,10 @@ a:hover {
 	text-decoration: underline;
 }
 
-body {
+.cuerpo {
+	
     font-family: 'Noto Sans JP', sans-serif;	
-	background: #f2f2f2;
+	background-image: url("https://images.unsplash.com/photo-1497215728101-856f4ea42174?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
 }
 
 /* * ============================== */
@@ -23,16 +24,16 @@ body {
 /* * ============================== */
 
 .navbar {
-	background: #FFCD48;
+	background: #0d2b3f;
 }
 
 .navbar a {
-	color: #fff;
+	color: rgb(243, 243, 243);
 	display: inline-block;
 	padding: 20px;
 	width: 100%;
 	text-align: center;
-	color: #000;
+	color: rgb(250, 246, 246);
 	transition: .3s ease-out all;
 }
 
@@ -95,7 +96,7 @@ main .contenido .fecha {
 /* * ============ ASIDE =========== */
 /* * ============================== */
 
-aside {
+aside .adios {
 	min-width: 30%;
 	margin: 40px 20px 20px 0;
 	height: 100%;
@@ -146,4 +147,95 @@ aside .indice a {
 	main .contenedor {
 		flex-direction: column;
 	}
+}
+
+
+
+
+.holas {
+background-color: transparent;
+height: 50;
+margin: 40px;
+
+}
+
+.categoria {
+background-image: url("https://fondosmil.com/fondo/90481.jpg");
+background-color: beige;
+
+}
+
+.texto {
+
+	color: white;
+}
+
+.categoria {
+	color: white;
+}
+
+ul {
+	display: block;
+	list-style-type: disc;
+	margin-top: 1em;
+	margin-bottom: 1 em;
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 40px;
+  }
+
+li {
+	list-style: none;
+	color: white;
+}
+
+.tablas {
+border-collapse: separate;
+text-align: center;
+padding: auto;
+color: black;
+position: absolute;
+left: 50%;
+top: 30%;
+width: 500px;
+height: 800px;
+margin: -100px 0 0 -200px;
+margin-bottom: 50px;
+}
+
+.cabecera {
+
+	background-color: beige;
+}
+
+.marcas {
+
+	background-color: peachpuff;
+}
+
+.modeloss {
+
+	background-color: gainsboro;
+}
+
+.precio{
+
+	background-color: khaki;
+}
+
+.div {
+	margin-left: 40px;
+	margin-top: 40px;	
+}
+
+.titulo {
+
+	text-align: center;
+	margin-top: 40px;
+	margin-left: 100px;
+}
+
+.enlaces {
+
+	color: white;
 }
