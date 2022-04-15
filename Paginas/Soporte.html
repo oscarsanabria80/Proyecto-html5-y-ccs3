@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Soporte</title>
+<link rel="stylesheet" href="../estilos.css" />
+
+</head>
+
+
+<body class="categoria">
+
+    <nav class="navbar">
+        <div class="contenedor">
+            <a href="../index.html"  target="_self">Inicio</a>
+            <a href="Categorias.html"  target="_self">Categorias</a>
+            <a href="Precios.html"  target="_self">Precios</a>
+            <a href="#">Compañía</a>
+            <a href="Soporte.html"  target="_self">Soporte</a>
+        </div>
+    </nav>
+
+
+<h1 class="bajo">FORMULARIO</h1>
+<form action="http://www2.gonzalonazareno.org/josedom/resultado.php." method="get" >
+
+    <p class="formularios">Nombre: <input type="text" name="nombre" size="40" placeholder="Escriba su Nombre"></p>
+    <p class="formularios">Apellidos:<input type="text" name="apellidos" size="40" placeholder="Escriba sus dos apellidos"></p>
+
+    <p class="formularios">Año de nacimiento: <input type="number" name="nacido" min="1900"></p>
+
+    <p class="formularios">Sexo:
+      <input type="radio" name="hm" value="h"> Hombre
+      <input type="radio" name="hm" value="m"> Mujer
+    </p>
+
+    <p class="formularios">Correo de contacto
+    <input type="email" id="email" pattern="+@.com" size="30" required>
+    </p>
+
+    <p class="formularios">Tipo de consulta
+    <select name="menu">
+        <option>Problemas</option>
+        <option>Información</option>
+        <option>Otros</option>
+      </select>
+    </p>
+
+
+    <div class="consultas">
+    <textarea name="texto" rows="4" cols="40" placeholder="Motivo de la consulta" class="formularios"></textarea>
+    </div>
+
+
+    <p class="formularios">
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Borrar">
+    </p>
+  </form>
+
+  <div class="soportefotos">
+    <img src="../Paginas/Imagenes/soporte.png">
+    <img src="../Paginas/Imagenes/servicio-telefonico-24-horas.png" class="horas">
+  </div>
+
+<footer class="footer">
+
+<section>
+    <h2>¿Necesitas ayuda?</h2>
+    <p>Si tienes cualquier pregunta relacionada con tu smartphones, la forma más fácil de obtener información es contactando con nosotros a través del formulario.</p>
+</section>
+
+<aside>
+<h4>¿QUIERE CONTACTAR CON NOSOTROS A TRAVÉS DE TELEFONO?</h4>
+<p class="dudas">SMARTPHONE es un marketplace donde los vendedores están siempre disponibles para cualquier duda o problema relacionado con el pedido.
+Si ya has contactado con el vendedor y prefieres hablar directamente con un agente de SMARTPHONE, puedes contactar directamente aquí
+ por teléfono al +34 930 34 33 67 Horario de atención al cliente: de lunes a domingo, de 8:00 a 20:00 </p>
+</aside>
+</footer>
+
+</body>
+</html>
