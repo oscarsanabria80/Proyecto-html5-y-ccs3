@@ -260,6 +260,38 @@ li {
 
 	background-color: beige;
 }
+/* * =================================================================================================================== */
+.competencias {
+
+	border-collapse: separate;
+	text-align: center;
+	padding: auto;
+	color: black;
+	position: absolute;
+	left: 80%;
+	top: 30%;
+	width: 500px;
+	height: 300px;
+	margin: -100px 0 0 -200px;
+	margin-bottom: 50px;
+	margin-top: 200px;
+}
+
+.flechas {
+
+	border-collapse: separate;
+	text-align: center;
+	padding: auto;
+	color: black;
+	position: absolute;
+	left: 27%;
+	top: 30%;
+	width: 400px;
+	height: 300px;
+	margin: -100px 0 0 -200px;
+	margin-bottom: 50px;
+	margin-top: 200px;
+}
 
 /* * ================================================================================================================= */
 /* * ===========================================SOPORTE.HTML========================================================== */
@@ -316,6 +348,7 @@ li {
 	width:830px;
 	margin: 0 auto;
 	margin-top: 130px;	
+	margin-left: 37%;
 }
 /* * =================================================================================================================== */
 
@@ -325,13 +358,26 @@ li {
 
 .asideC {
 
-	text-align: center;
-	margin-top: 12px;
+	margin-top: 30px;
+	font-family: 1000px Arial, Helvetica, Sans-serif;
+	border: solid 2px black;
+	white-space:pre-line;
+	background-color: bisque;
+	color: black;
+	position: relative;
+	padding-bottom: 1%;
+	padding-left: 1%;
+	width: 30%;
+	padding-right: 1%;
+	padding-top: 1%;
+	margin-left: 35%;
 }
 
 .parrafo {
 
 	text-align: center;
+	font-size: 33px;
+	margin-top: 15px;
 }
 
 
@@ -348,32 +394,165 @@ li {
 
 .texto {
 
-	color: white;
-	display: inline-block;
-	text-align: center;
+	margin-top: 30px;
+	font-family: 1000px Arial, Helvetica, Sans-serif;
+	border: solid 2px black;
+	white-space:pre-line;
+	background-color: bisque;
+	color: black;
+	position: relative;
+	padding-bottom: 1%;
+	padding-left: 1%;
+	width: 30%;
+	padding-right: 1%;
+	padding-top: 1%;
+	margin-left: 35%;
 	
 }
 
 .izquierdaA {
 
-	width: 30%; 
+	width: 10%; 
 	height: 40%;
+	margin-top: 12px;
 }
 
 .izquierdaB {
 
-	width: 40%; 
+	width: 20%; 
 	height: 40%;
+	margin-top: 12px;
 }
 
 .izquierdaC {
 
-	width: 40%; 
+	width: 10%; 
 	height: 40%;
+	margin-top: 12px;
 }
 
 .izquierdaD {
 
-	width: 20%; 
+	width: 10%; 
 	height: 20%;
+	margin-top: 12px;
+}
+
+/* * ================================================================================================================= */
+/* * ===========================================QUIENSOMOS.HTML======================================================= */
+/* * ================================================================================================================= */
+
+.imagenquiensomos {
+display: block;
+margin: 0px auto;
+margin-top: 60px;
+}
+
+.quiensomos {
+
+	margin-top: 20px;
+	text-align: center;
+}
+
+.parrafoquien {
+
+	margin-top: 30px;
+	font-family: 1000px Arial, Helvetica, Sans-serif;
+	border: solid 2px black;
+	white-space:pre-line;
+	background-color: bisque;
+	color: black;
+	position: relative;
+	padding-bottom: 1%;
+	padding-left: 1%;
+	width: 30%;
+	padding-right: 1%;
+	padding-top: 1%;
+	margin-left: 35%;
+}
+
+.ubicacion {
+
+	width: 30%;
+	height: 40%;
+	margin-left: 35%;
+	margin-top: 35px;
+
+}
+
+.ubica {
+
+	text-align: center;
+	margin-top: 12px;
+}
+
+.insta {
+
+	border-collapse: separate;
+	text-align: center;
+	padding: auto;
+	color: black;
+	position: absolute;
+	left: 15%;
+	top: 30%;
+	width: 500px;
+	height: 500px;
+	margin: -100px 0 0 -200px;
+	margin-bottom: 50px;
+
+}
+.tw {
+
+	border-collapse: separate;
+	text-align: center;
+	padding: auto;
+	color: black;
+	position: absolute;
+	left: 79%;
+	top: 30%;
+	width: 500px;
+	height: 500px;
+	margin: -100px 0 0 -200px;
+	margin-bottom: 50px;
+
+}
+
+.llamanos {
+
+	border-collapse: separate;
+	text-align: center;
+	padding: auto;
+	color: black;
+	position: absolute;
+	left: 15%;
+	top: 30%;
+	width: 500px;
+	height: 300px;
+	margin: -100px 0 0 -200px;
+	margin-bottom: 50px;
+
+}
+
+
+.fondoinicio {
+
+	margin-top: 3%;
+	margin-left: 15%;
+	width: 10%;
+	height: 10%;
+}
+
+.bien {
+
+	border-collapse: separate;
+	text-align: center;
+	padding: auto;
+	color: black;
+	position: absolute;
+	left: 60%;
+	top: 20%;
+	width: 40%;
+	height: 68%;
+	margin: -100px 0 0 -200px;
+	margin-bottom: 50px;
 }
